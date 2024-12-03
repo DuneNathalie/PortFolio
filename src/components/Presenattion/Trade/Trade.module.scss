@@ -1,0 +1,8 @@
+
+@use "../../../styles/colors.scss" ;
+
+.container{
+    background-color: colors.$brown;
+    color: colors.$brownLight;
+    text-align: center;
+}

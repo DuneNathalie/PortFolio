@@ -1,14 +1,15 @@
 /* eslint-disable */
 import React from 'react';
 
-import NavigatePage from '../components/footer/Footer';
+import Footer from '../../components/Footer/Footer';
+import Styles from './Graphism.module.scss';
 
 const Graphism: React.FC = () => {
 
     return (
-        <div>
+        <div className={Styles.container}>
             <h1>Graphism</h1>
-            <NavigatePage type='graphism' />
+            <Footer type='graphism' />
         </div>
     );
 };

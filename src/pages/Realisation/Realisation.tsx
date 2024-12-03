@@ -1,11 +1,12 @@
 /* eslint-disable */
 import React from 'react';
 
-import NavigatePage from '../components/footer/Footer';
+import NavigatePage from '../../components/Footer/Footer';
+import Styles from './Realisation.module.scss'
 
 const Realisation: React.FC = () => {
     return (
-        <div>
+        <div className={Styles.container}>
             <h1>Realisations</h1>
             <NavigatePage type='realisation' />
         </div>

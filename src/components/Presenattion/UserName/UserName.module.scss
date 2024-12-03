@@ -1,0 +1,15 @@
+@use "../../../styles/colors.scss" ;
+@use "../../../styles/values.scss" ;
+
+.container{
+    min-height: 20vh;
+    background-color: colors.$brownLight;
+    color: colors.$brown;
+    margin-top: 0;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:values.$fontTitle;
+    font-size: 30px;
+}
