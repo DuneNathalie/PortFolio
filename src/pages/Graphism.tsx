@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 
-import NavigatePage from '../components/NavigatePage/NavigatePage';
+import NavigatePage from '../components/footer/Footer';
 
 const Graphism: React.FC = () => {
 
