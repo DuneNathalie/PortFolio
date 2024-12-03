@@ -1,0 +1,10 @@
+@use '../../styles/colors';
+
+button {
+    background-color: colors.$brownDark;
+    color: colors.$white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
