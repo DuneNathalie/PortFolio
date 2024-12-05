@@ -1,14 +1,15 @@
 /* eslint-disable */
 import React from 'react';
 
-import NavigatePage from '../components/footer/Footer';
+import Footer from '../../components/Footer/Footer';
+import Styles from './Contact.module.scss';
 
 const Contact: React.FC = () => {
 
     return (
-        <div >
+        <div className={Styles.container}>
             <h1>Contact</h1>
-           <NavigatePage type='contact'/>
+           <Footer type='contact'/>
         </div>
     );
 };

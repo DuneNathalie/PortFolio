@@ -1,0 +1,22 @@
+@use "../../../styles/colors.scss";
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 5vh; 
+    left: 15vw; 
+    transform: translateX(-50%);
+    width: 330px;
+    height: 330px;
+    background-image: url("../../../assets/profil.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  
+  

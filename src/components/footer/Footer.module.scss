@@ -1,17 +1,18 @@
 @use "../../styles/colors";
 
-.containerButtonContact {
+.containerButtonCv {
     background-color: colors.$brownLight;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0;
 
-    .reseau {
-        flex: 2;
-        text-align: center;
+    .element {
+        flex: 2; 
+        display: flex;
+        justify-content: start;
+        align-items: center; 
     }
 
 }
@@ -19,17 +20,24 @@
 .containerButtonHome {
     background-color: colors.$brownLight;
     width: 100%;
-    margin-top: 20px;
     padding: 10px;
     display: flex;
     justify-content: end;
+    margin-bottom: 0;
+
+    .element {
+        flex: 1; 
+        display: flex;
+        justify-content: end;
+        align-items: center; 
+    }
 }
 
 .containerButton {
     background-color: colors.$brownLight;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-bottom: 0;
     padding: 10px;
     ;
 }
