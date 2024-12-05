@@ -1,7 +1,7 @@
-import nath from '../assets/nath.png';
-import idris from '../assets/idris.png';
-import daryna from '../assets/daryna.png';
-import renne from '../assets/renne.png';
+import nath from '../assets/AI/nath.png';
+import idris from '../assets/AI/idris.png';
+import daryna from '../assets/AI/daryna.png';
+import renne from '../assets/AI/renne.png';
 
 
 const Data_illustrator = [

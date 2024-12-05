@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './Illustrator.module.scss';
-import Data_illustrator from '../../../Data/DataIllustrator';
+import Data_illustrator from '../../Data/DataIllustrator';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
