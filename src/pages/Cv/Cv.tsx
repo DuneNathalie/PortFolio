@@ -3,13 +3,14 @@ import React from 'react';
 
 import Footer from '../../components/Footer/Footer';
 import Styles from './Cv.module.scss';
+import Title from '../../components/Title/Title';
 
 const Cv: React.FC = () => {
 
     return (
         <div className={Styles.container}>
-            <h1>CV</h1>
-          <Footer type='cv'/>
+            <Title title='curriculum vitae' />
+            <Footer type='cv' />
         </div>
     );
 };

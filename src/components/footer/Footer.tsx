@@ -26,7 +26,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
                 </div>
                 <div className={styles.element}>
                     <Button
-                        text="Suivant"
+                        text="SUIVANT"
                         onClick={() => {
                             navigate('/graphism');
                         }}
@@ -38,18 +38,18 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
     if (type === 'graphism') {
         return (
             <div className={getClassName()}>
-                <Button text="Retour" onClick={() => { navigate('/'); }} />
+                <Button text="RETOUR" onClick={() => { navigate('/'); }} />
                 <Reseau />
-                <Button text="Suivant" onClick={() => { navigate('/realisation'); }} />
+                <Button text="SUIVANT" onClick={() => { navigate('/realisation'); }} />
             </div>
         )
     }
     if (type === 'realisation') {
         return (
             <div className={getClassName()}>
-                <Button text="Retour" onClick={() => { navigate('/graphism'); }} />
+                <Button text="RETOUR" onClick={() => { navigate('/graphism'); }} />
                 <Reseau />
-                <Button text="Suivant" onClick={() => { navigate('/cv'); }} />
+                <Button text="SUIVANT" onClick={() => { navigate('/cv'); }} />
             </div>
         );
     }
@@ -57,7 +57,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
         return (
             <div className={getClassName()}>
                 <div className={styles.element}>
-                    <Button text="Retour" onClick={() => { navigate('/realisation'); }} />
+                    <Button text="RETOUR" onClick={() => { navigate('/realisation'); }} />
                 </div>
                 <div className={styles.element}>
                     <Reseau />

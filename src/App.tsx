@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import Cv from './pages/Cv/Cv';
 import Realisation from './pages/Realisation/Realisation';
 import Graphism from './pages/Graphism/Graphism';
-import Contact from './pages/Contact/Contact';
 
 const App: React.FC = () => {
     return (
