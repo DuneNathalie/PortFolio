@@ -1,13 +1,16 @@
 import React from 'react';
 
-import User from '../../../assets/profil.png';
 import Styles from './Profil.module.scss';
+import UserName from '../UserName/UserName';
+import Business from '../Business/Business';
 
 const Profil: React.FC = () => {
     return (
         <div className={Styles.container}>
-            <img src={User} alt="profil"/>
-        </div>
+        <UserName />
+        <Business />
+        <div className={Styles.circle}></div>
+      </div>
     );
 }
 

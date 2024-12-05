@@ -1,0 +1,17 @@
+
+@use "../../../styles/values.scss";
+.container {
+    display: flex;
+    flex-direction: column;
+    .profil{
+        padding: 0 30px 20px 20px;
+        display: flex;
+        gap:20px;
+        flex: 1; /* Permet à la section de prendre tout l'espace disponible */
+    
+        p{
+            text-align: justify;
+        }
+    }
+
+}

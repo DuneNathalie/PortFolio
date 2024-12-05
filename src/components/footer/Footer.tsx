@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
 
     const getClassName = () => {
         if (type === 'home') return styles.containerButtonHome;
-        if (type === 'contact') return styles.containerButtonContact;
+        if (type === 'cv') return styles.containerButtonCv;
         return styles.containerButton;
     };
 
@@ -56,26 +56,30 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
     if (type === 'cv') {
         return (
             <div className={getClassName()}>
-                <Button text="Retour" onClick={() => { navigate('/realisation'); }} />
-                <Reseau />
-                <Button text="Suivant" onClick={() => { navigate('/contact'); }} />
-            </div>
-        );
-    }
-    if (type === 'contact') {
-        return (
-            <div className={getClassName()}>
+                <div className={styles.element}>
+                    <Button text="Retour" onClick={() => { navigate('/realisation'); }} />
+                </div>
                 <div className={styles.element}>
                     <Reseau />
                 </div>
+            </div>
+        );
+    }
+   {/**  if (type === 'contact') {
+        return (
+            <div className={getClassName()}>
                 <div className={styles.element}>
                     <Button text="Retour" onClick={() => {
                         navigate('/cv');
                     }} />
                 </div>
+                <div className={styles.element}>
+                    <Reseau />
+                </div>
             </div>
         )
     }
+        */}
 
     return (
 
