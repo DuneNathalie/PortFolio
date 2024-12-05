@@ -2,14 +2,13 @@ import React from 'react';
 
 import Styles from './Profil.module.scss';
 import UserName from '../UserName/UserName';
-import Business from '../Business/Business';
+import Title from '../../Title/Title';
 
 const Profil: React.FC = () => {
     return (
         <div className={Styles.container}>
         <UserName />
-        <Business />
-        <div className={Styles.circle}></div>
+        <Title title='Développeuse r&d' />
       </div>
     );
 }

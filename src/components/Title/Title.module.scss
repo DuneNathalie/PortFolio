@@ -1,0 +1,8 @@
+@use '../../styles/colors.scss';
+@use '../../styles/values.scss';
+
+.container {
+    color:colors.$brownLight;
+    font-family: values.$fontTitle;
+    text-align: center;
+}
