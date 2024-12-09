@@ -1,0 +1,33 @@
+.container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .item {
+        margin-bottom: 20px;
+
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 150px;
+
+
+           /* .employeur {
+                background-color: chartreuse;
+            } */
+
+
+        }
+
+      /*  .list {
+            background-color: brown;
+
+        } */
+    }
+    .form{
+        display: flex;
+    }
+}
