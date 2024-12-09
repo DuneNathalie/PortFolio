@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import Styles from './Graphism.module.scss';
 import Title from '../../components/Title/Title';
 import Illustrator from '../../components/Illustrator/Illustrator';
-import Presentation from '../../components/Presentation/Presentation';
+import Presentation from '../../components/Preambule/Preambule';
 
 import Data_Presentation from '../../Data/DataPresentation';
 
