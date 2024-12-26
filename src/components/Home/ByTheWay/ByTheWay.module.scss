@@ -11,5 +11,16 @@
     p {
         text-align: justify;
     }
+    
+}
 
+@media screen and (max-width: 700px) {
+    .container {
+        h1{
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
 }
