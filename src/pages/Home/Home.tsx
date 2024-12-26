@@ -1,13 +1,11 @@
 /* eslint-disable */
 import React from 'react';
 
-import NavigatePage from '../../components/Footer/Footer';
-import UserName from '../../components/Presenattion/UserName/UserName';
-
+import Footer from '../../components/Footer/Footer';
 
 import Styles from './Home.module.scss';
-import ByTheWay from '../../components/Presenattion/ByTheWay/ByTheWay';
-import Profil from '../../components/Presenattion/Profil/Profil';
+import ByTheWay from '../../components/Home/ByTheWay/ByTheWay';
+import Profil from '../../components/Home/Profil/Profil';
 
 
 
@@ -17,7 +15,7 @@ const Home: React.FC = () => {
         <div className={Styles.container}>
             <Profil />
             <ByTheWay />
-            <NavigatePage type='home' />
+            <Footer type='home' />
         </div>
     );
 };
