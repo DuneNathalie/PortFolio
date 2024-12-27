@@ -8,17 +8,24 @@ button {
     border-radius: 5px;
     font-weight: 400;
     cursor: pointer;
-    
-}
-    .download {
-        background-color:colors.$green;
-        color: colors.$white;
-    }
+   // box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
 
-    .nav {
-        background-color: colors.$brownDark;
-        color: colors.$white;
-    }
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.download {
+    background-color: colors.$green;
+    color: colors.$white;
+}
+
+.nav {
+    background-color: colors.$brownDark;
+    color: colors.$white;
+}
 
 @media screen and (max-width: 700px) {
 
