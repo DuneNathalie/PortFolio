@@ -14,7 +14,7 @@ const CVitt = () => {
         <div className={styles.container}>
             {experienceData.map((experienceCategory) => (
                 <div key={experienceCategory.id} >
-                    <h2>{experienceCategory.title}</h2>
+                    <h2>{experienceCategory.title} :</h2>
                     <div >
                         {experienceCategory.experiences.map((experience) => (
                             <div key={experience.id} className={styles.item}>
@@ -40,7 +40,7 @@ const CVitt = () => {
             <div>
                 {competenceData.map((competenceCategory) => (
                     <div key={competenceCategory.id}>
-                        <h2>{competenceCategory.title}</h2>
+                        <h2>{competenceCategory.title} :</h2>
                         <div>
                             <div className={styles.item}>
                                 {competenceCategory.details.map((detail, index) => (
@@ -57,7 +57,7 @@ const CVitt = () => {
             <div>
                 {formationData.map((formationCategory) => (
                     <div key={formationCategory.id} >
-                        <h2>{formationCategory.title}</h2>
+                        <h2>{formationCategory.title} :</h2>
                         <div >
                             {formationCategory.details.map((detail) => (
                                 <div key={detail.id}>
@@ -75,7 +75,7 @@ const CVitt = () => {
             <div>
                 {centreData.map((centreCategory) => (
                     <div key={centreCategory.id}>
-                        <h2>{centreCategory.title}</h2>
+                        <h2>{centreCategory.title} :</h2>
                         <div>
                             {centreCategory.details.map((detail, index) => (
                                 <div key={index}>

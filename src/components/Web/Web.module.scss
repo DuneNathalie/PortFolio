@@ -1,3 +1,5 @@
+@use "../../styles/colors";
+
 .container {
     padding: 0 20px 30px 20px;
     display: flex;
@@ -29,6 +31,9 @@
                 margin-right: 10px;
             }
         
+    }
+    a{
+        color:colors.$brownDark;
     }
 
 }

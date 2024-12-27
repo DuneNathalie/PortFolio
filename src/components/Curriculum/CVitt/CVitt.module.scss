@@ -1,8 +1,15 @@
+@use"../../../styles/colors";
+
 .container {
     flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
+
+    h2{
+        text-decoration: underline;
+        color:colors.$brownDark;
+    }
 
     .item {
         margin-bottom: 20px;
@@ -14,18 +21,8 @@
             justify-content: flex-start;
             height: 150px;
 
-
-           /* .employeur {
-                background-color: chartreuse;
-            } */
-
-
         }
 
-      /*  .list {
-            background-color: brown;
-
-        } */
     }
     .form{
         display: flex;
