@@ -15,7 +15,7 @@ const Illustrator: React.FC = () => {
                         </div>
                     </Zoom>
                     <div className={Styles.text}>
-                        <h2>{item.title}</h2>
+                        <h1>{item.title}</h1>
                         <p>{item.description}</p>
                     </div>
                 </div>
