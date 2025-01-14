@@ -8,7 +8,7 @@ const Profil: React.FC = () => {
     return (
         <div className={Styles.container}>
         <UserName />
-        <Title title='Développeuse r&d' />
+        <Title title="Développeuse d'application Web et Mobile" />
       </div>
     );
 }

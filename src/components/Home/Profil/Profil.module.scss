@@ -1,19 +1,19 @@
 @use "../../../styles/colors.scss";
+@use "../../../styles/values.scss";
 
-/*.container {
-    //width: 100%;
-    
-     .circle {
-        position: absolute;
-        top: 3vh; 
-        left: 12vw; 
-        transform: translateX(-50%);
-        width: 330px;
-        height: 330px;
-        background-image: url("../../../assets/profil.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        z-index: 10;
-        }
-        } */
+.container {
+    background-color: colors.$brownLight;
+    font-family: values.$fontTitle;
+    color: colors.$brown;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-height: 20vh;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        font-size: 28px;
+    }
+}

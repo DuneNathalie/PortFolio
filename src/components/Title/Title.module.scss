@@ -2,17 +2,18 @@
 @use '../../styles/values.scss';
 
 .container {
-    color:colors.$brownLight;
+    background-color: colors.$brownLight;
+    color:colors.$brown;
     font-family: values.$fontTitle;
     text-align: center;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 32px;
 }
 
 @media screen and (max-width: 700px) {
     .container {
-        flex:1;
-        font-size: 24px;
+        font-size: 23px;
+        font-weight:lighter;
         display: flex;
         align-items: center;
         justify-content: center;
