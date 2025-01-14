@@ -9,7 +9,7 @@ interface ButtonProps {
     type: "download" | "nav";
 }
 
-const Button : React.FC<ButtonProps> = ({text = "Click me", onClick,style, type}) => {
+const Button : React.FC<ButtonProps> = ({text = "Click me", onClick, type}) => {
     return (
         <button onClick={onClick} className={type === "download" ? Styles.download : Styles.nav}>{text}</button>
     )

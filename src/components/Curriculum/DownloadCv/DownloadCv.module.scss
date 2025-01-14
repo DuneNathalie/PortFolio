@@ -1,5 +1,14 @@
-.container{
-    display: flex  ;
-    justify-content: end;
-    padding: 20px;
+@use '../../../styles/colors';
+
+.container {
+    margin-bottom: 10px;
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-decoration: none;
+        margin:auto
+
+    }
 }
