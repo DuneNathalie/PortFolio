@@ -1,6 +1,7 @@
 @use '../../styles/colors';
 
 button {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     width: 120px;
     height: 40px;
     font-size: 12px;
@@ -13,9 +14,14 @@ button {
 }
 
 .download {
-    background-color: colors.$green;
-    color: colors.$white;
-    width: 150px;
+   background-color: colors.$green;
+   color: colors.$white;
+   width: 150px;
+   
+   &:hover{
+        background-color: colors.$greenDark;
+    }
+
 } 
 
 .nav {
