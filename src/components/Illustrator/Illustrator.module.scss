@@ -1,47 +1,88 @@
+@use "../../styles//colors";
+
 .container {
     max-width: 100%;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* Aligne le contenu verticalement */
     gap: 20px;
-    padding-bottom: 20px;
+    background-color: brown;
 
-    .item {
+    .category {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 350px;
+        flex-direction: column;
+        /* Aligne titre et images verticalement */
+        align-items: center;
+        background-color: yellow;
+       // min-height: 50vh;
 
-        .img {
-            width: 300px;
-            height: 250px;
-            display: flex;
-            justify-content: center;
-
-            img {
-                max-height: 100%;
-                object-fit: cover;
-            }
+        .title {
+            background-color: aqua;
+            padding: 10px;
+            text-align: center;
+            height: 40px;
+            // border-radius: 5px;
         }
 
-        .text {
+        .images {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+            /* Centre les images horizontalement */
+            flex-wrap: wrap;
+            /* Permet le retour à la ligne si nécessaire */
+            gap: 20px;
+            /* Ajoute un espace entre les images */
+        }
 
-            p {
-                text-align: justify;
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(136, 116, 113, 0.2);
+            border-radius: 10px;
+            box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+            overflow: hidden;
+            width: 350px;
+            height: 450px;
+
+            .img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                // height: 100%;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                }
             }
         }
     }
 }
 
+
 @media screen and (max-width: 700px) {
     .container {
-        h1{
-            font-size: 18px;
-        }
-        p {
-            font-size: 14px;
+        gap: 10px;
+        padding-bottom: 10px;
+
+        .item {
+            max-width: 100%;
+
+            .text {
+                h1 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
