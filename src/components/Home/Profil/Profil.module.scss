@@ -10,10 +10,30 @@
     flex-direction: column;
     text-align: center;
     max-height: 20vh;
+
+    .username {
+        color: colors.$brown;
+        font-family: values.$fontTitle;
+        font-size: 45px;
+        text-align: center;
+
+        p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
 }
 
 @media screen and (max-width: 700px) {
     .container {
         font-size: 28px;
+
+        .username {
+            p {
+                font-size: 28px;
+                margin-top: 10px;
+            }
+
+        }
     }
 }
