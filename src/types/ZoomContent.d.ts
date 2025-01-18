@@ -12,7 +12,7 @@ declare module 'react-medium-image-zoom' {
   
     interface ZoomProps {
       zoomMargin?: number;
-      ZoomContent: (props: ZoomContentProps) => ReactNode;
+      ZoomContent ?: (props: ZoomContentProps) => ReactNode;
       children: ReactNode;
     }
   

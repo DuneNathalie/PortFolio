@@ -3,12 +3,14 @@ import Styles from './Illustrator.module.scss';
 import Data_illustrator from '../../Data/DataIllustrator';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import cardfils from '../../assets/AI/card_fils.png';
+import cardfille from '../../assets/AI/card_fille.png';
 
 const Illustrator: React.FC = () => {
     // Récupérer les données
     const familyData = Data_illustrator.slice(0, 3);
     const characterData = Data_illustrator.slice(3, 6);
-    const elementData = Data_illustrator.slice(6, 9);
+    const elementData = Data_illustrator.slice(6, 10);
 
     return (
         <div className={Styles.container}>
@@ -17,11 +19,10 @@ const Illustrator: React.FC = () => {
                 <div className={Styles.title}>
                     <h1>La famille:</h1>
                 </div>
-                <div className={Styles.images}>
+                <div className={Styles.cards}>
                     {familyData.map((item, index) => (
                         <div key={index} className={Styles.item}>
-                           <Zoom
-                                zoomMargin={50}
+                            <Zoom
                                 ZoomContent={({ img, style }) => {
                                     const customStyle = {
                                         ...style,
@@ -42,6 +43,7 @@ const Illustrator: React.FC = () => {
                             </div>
                         </div>
                     ))}
+
                 </div>
             </div>
 
@@ -50,11 +52,10 @@ const Illustrator: React.FC = () => {
                 <div className={Styles.title}>
                     <h1>Les personnages:</h1>
                 </div>
-                <div className={Styles.images}>
+                <div className={Styles.cards}>
                     {characterData.map((item, index) => (
                         <div key={index} className={Styles.item}>
                             <Zoom
-                                zoomMargin={50}
                                 ZoomContent={({ img, style }) => {
                                     const customStyle = {
                                         ...style,
@@ -83,11 +84,10 @@ const Illustrator: React.FC = () => {
                 <div className={Styles.title}>
                     <h1>Les éléments de Noël:</h1>
                 </div>
-                <div className={Styles.images}>
+                <div className={Styles.cards}>
                     {elementData.map((item, index) => (
                         <div key={index} className={Styles.item}>
                             <Zoom
-                                zoomMargin={50}
                                 ZoomContent={({ img, style }) => {
                                     const customStyle = {
                                         ...style,
@@ -108,6 +108,32 @@ const Illustrator: React.FC = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+            </div>
+
+            {/* Section Les Éléments  carte de Noël */}
+            <div className={Styles.categoryNoel}>
+                <div className={Styles.title}>
+                    <h1>Les éléments pour carte de Noël:</h1>
+                </div>
+                <div className={Styles.test}>
+                    <div className={Styles.cardsNoel}>
+                        <div className={Styles.imgNoel}>
+                            <img src={cardfils} alt="card noel fils" />
+                        </div>
+                        <div className={Styles.text}>
+                            <p>Résultat carte noel fils</p>
+                        </div>
+                    </div>
+
+                    <div className={Styles.cardsNoel}>
+                        <div className={Styles.imgNoel}>
+                            <img src={cardfille} alt="card noel fille" />
+                        </div>
+                        <div className={Styles.text}>
+                            <p>Résultat carte noel fille</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

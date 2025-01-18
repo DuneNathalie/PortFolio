@@ -4,85 +4,193 @@
     max-width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    /* Aligne le contenu verticalement */
+    justify-content: center;
     gap: 20px;
-    background-color: brown;
 
     .category {
         display: flex;
         flex-direction: column;
-        /* Aligne titre et images verticalement */
         align-items: center;
-        background-color: yellow;
-       // min-height: 50vh;
+        padding: auto;
+
+        justify-content: center;
+        width: 100%;
 
         .title {
-            background-color: aqua;
-            padding: 10px;
-            text-align: center;
             height: 40px;
-            // border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 100%;
         }
 
-        .images {
+        .cards {
             display: flex;
-            justify-content: center;
-            /* Centre les images horizontalement */
+            justify-content: space-between;
             flex-wrap: wrap;
-            /* Permet le retour à la ligne si nécessaire */
-            gap: 20px;
-            /* Ajoute un espace entre les images */
+            gap: 5px;
+            padding: 20px;
         }
 
         .item {
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: rgba(136, 116, 113, 0.2);
+            align-items: start;
+            background-color: rgba(colors.$brownLight, 0.6);
             border-radius: 10px;
             box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
             overflow: hidden;
-            width: 350px;
-            height: 450px;
+            max-width: 48%;
+            margin: 20px 0;
 
-            .img {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 50%;
-                // height: 100%;
+        }
 
-                img {
-                    max-width: 100%;
-                    max-height: 100%;
-                    object-fit: cover;
-                }
+        .img {
+            width: 300px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            margin: 20px 10px 20px 20px;
+            border: solid 2px rgba(colors.$brownDark, 0.3);
+            border-radius: 10px;
+            background-color: rgba(colors.$brownDark, 0.2);
+            box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+            transition: 1.1s ease-in-out;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+
+            img {
+                max-height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+                padding: 5px 0;
             }
         }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            padding: 10px;
+            margin-top: 0;
+            padding: 10px 30px;
+            color: colors.$brownDark;
+
+            h1 {
+                font-size: 24px;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 14px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .categoryNoel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .test {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex: 1;
+            gap: 20px;
+
+        }
+
+        .cardsNoel {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .imgNoel {
+            width: 100%;
+
+            img {
+                width: 100%;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+            }
+        }
+
+        .text {
+            p {
+                font-size: 14px;
+                margin-top: 0;
+            }
+
+        }
+
     }
 }
 
 
+
 @media screen and (max-width: 700px) {
     .container {
-        gap: 10px;
+        gap: 20px;
         padding-bottom: 10px;
 
-        .item {
-            max-width: 100%;
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
 
-            .text {
-                h1 {
-                    font-size: 18px;
+            .item {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                max-width: 350px;
+
+                .img {
+                    margin: 25px 10px 0px 10px;
+
                 }
 
-                p {
-                    font-size: 14px;
+                .text {
+                    h1 {
+                        font-size: 18px;
+                        margin-top: 0;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
                 }
             }
         }
+    }
+
+    .categoryNoel {
+
+        padding: 10px;
+
+        .test {
+            flex-direction: column;
+        }
+
+        .cardsNoel {}
+
+        .imgNoel {
+            width: 100%;
+
+            img {
+                border-radius: 5px;
+                box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+            }
+        }
+
+
+
     }
 }
