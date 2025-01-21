@@ -8,9 +8,11 @@ declare module 'react-medium-image-zoom' {
       buttonUnzoom: ReactElement<HTMLButtonElement>;
       modalState: string;
       onUnzoom: () => void;
+      IconZoom?: ElementType,
     }
   
     interface ZoomProps {
+      IconZoom?: ElementType,
       zoomMargin?: number;
       ZoomContent ?: (props: ZoomContentProps) => ReactNode;
       children: ReactNode;

@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Cv from './pages/Cv/Cv';
 import Realisation from './pages/Realisation/Realisation';
-import Graphism from './pages/Graphism/Graphism';
+import Illustrator from './pages/Illustrator/Illustrator';
 
 const App: React.FC = () => {
     return (
@@ -13,7 +13,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/cv' element={<Cv />} />
-                <Route path='/graphism' element={<Graphism />} />
+                <Route path='/illustrator' element={<Illustrator />} />
                 <Route path='/realisation' element={<Realisation />} />
               {/** <Route path='/Contact' element={<Contact />} />*/}  
             </Routes>

@@ -1,0 +1,75 @@
+@use '../../../styles/values';
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        h2 {
+            font-family: values.$fontTitle;
+            font-weight: lighter;
+        }
+    }
+
+    .containerCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+        gap: 20px;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+
+        img {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+        }
+    }
+
+    .text {
+        padding: 10px;
+
+        p {
+            font-size: 14px;
+            margin-top: 0;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .container {
+
+        .containerCards {
+            flex-direction: column;
+            gap: 0px;
+
+            .img {
+                width: 100%;
+
+                img {
+                    border-radius: 5px;
+                    box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+                }
+            }
+        }
+
+    }
+
+
+}
