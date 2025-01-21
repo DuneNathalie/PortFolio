@@ -4,18 +4,14 @@
 .container {
     flex: 1;
     display: flex;
-    //justify-content: center;
     flex-direction: column;
     padding: 35px 20px 10px 20px;
 
     h3{
         font-size: 1.8rem;
         font-weight: normal;
+        padding: 0px 0px 0px 20px;
         margin-bottom: 0;
-    }
-
-    p {
-        text-align: justify;
     }
     
 }
@@ -24,10 +20,8 @@
     .container {
         padding: 0 20px 10px 20px;
         h3{
-            font-size: 24px;
-        }
-        p {
-            font-size: 14px;
+            font-size: 22px;
+            margin:5px;
         }
     }
 }
