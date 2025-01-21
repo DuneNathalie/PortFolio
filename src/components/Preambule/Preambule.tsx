@@ -7,9 +7,18 @@ interface PreambuleProps {
 }
 
 const Preambule: React.FC<PreambuleProps> = ({text}) => {
+       const formatText = (inputText: string) => {
+        return inputText.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+                {line}
+                {index < inputText.split('\n').length - 1 && <br />}
+            </React.Fragment>
+        ));
+    };
+
     return (
         <div className={Styles.container}>
-           <p>{text}</p>
+           <p>{formatText(text)}</p>
         </div>
     )
 }
