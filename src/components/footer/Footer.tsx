@@ -6,7 +6,7 @@ import React from 'react';
 import Reseau from '../Reseau/Reseau';
 
 interface FooterProps {
-    type?: 'home' | 'cv' | 'realisation' | 'contact' | 'graphism';
+    type?: 'home' | 'cv' | 'realisation' | 'contact' | 'illustrator';
 }
 
 const Footer: React.FC<FooterProps> = ({ type }) => {
@@ -29,14 +29,14 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
                         type='nav'
                         text="SUIVANT"
                         onClick={() => {
-                            navigate('/graphism');
+                            navigate('/illustrator');
                         }}
                     />
                 </div>
             </div>
         );
     }
-    if (type === 'graphism') {
+    if (type === 'illustrator') {
         return (
             <div className={getClassName()}>
                 <Button type='nav' text="RETOUR" onClick={() => { navigate('/'); }} />
@@ -48,7 +48,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
     if (type === 'realisation') {
         return (
             <div className={getClassName()}>
-                <Button type='nav' text="RETOUR" onClick={() => { navigate('/graphism'); }} />
+                <Button type='nav' text="RETOUR" onClick={() => { navigate('/illustrator'); }} />
                 <Reseau />
                 <Button type='nav' text="SUIVANT" onClick={() => { navigate('/cv'); }} />
             </div>
