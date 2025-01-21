@@ -36,18 +36,6 @@ const Category: React.FC<CategoryProps> = ({theme, data}) => {
                             >
                                 <div className={Styles.img} >
                                     <img src={item.img} alt={item.title} />
-                                    <RiZoomInFill
-                                        style={{
-                                            position: 'absolute',
-                                            bottom: '0px',
-                                            right: '10px',
-                                            transform: 'translate(-50%, -50%)',
-                                            fontSize: '24px',
-                                            color: "black",
-                                            zIndex: '100',
-                                            opacity: '0.5',
-                                        }}
-                                    />
                                 </div>
                             </Zoom>
                             <div className={Styles.text}>

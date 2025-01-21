@@ -18,7 +18,7 @@ const Data_illustrator = [
   { id: 4, title: 'Picsou', description: `Mon fils adore Picsou, alors je l'ai imaginé en Père Noël et j'ai créé cette image pour lui.`, img: picsou },
   { id: 5, title: 'Totoro', description: `Ma fille étant une grande fan de manga, j'ai voulu la surprendre en créant un Totoro.`, img: totoro },
   { id: 6, title: 'Renne', description: `Pour ajouter une touche festive à la carte de ma fille, j'ai conçu un joli renne pour accompagner son décor.`, img: renne },
-  { id: 7, title: 'Sapin Monster', description: `Pour célébrer Noël à ma manière, j'ai d'abord créé une canette "Monster", que j'ai ensuite dupliquée et empilée pour réaliser ce sapin original. Une étoile sur le sommet a apporté la touche finale pour le rendre plus authentique`, img: sapinFils },
+  { id: 7, title: 'Sapin Monster', description: `Pour célébrer Noël à ma manière, j'ai d'abord créé une canette "Monster", que j'ai ensuite dupliquée et empilée pour réaliser ce sapin original. Une étoile sur le sommet a apporté la touche finale pour le rendre plus authentique.`, img: sapinFils },
   { id: 8, title: 'Sapin simple', description: `J'ai imaginé un sapin de Noël plus classique, orné de quelques décorations pour lui donner un air festif.`, img: sapinFille },
   { id: 9, title: 'Boules de Noël ', description: `J'ai créé plusieurs boules de Noël avec des motifs variés, afin de personnaliser chaque décoration.`, img: boules },
   { id: 10, title: 'Cadeaux', description: `Enfin, pour parfaire l'ambiance sous le sapin, j'ai conçu des cadeaux à déposer au pied des arbres.`, img: gifts }
