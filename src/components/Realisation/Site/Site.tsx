@@ -12,6 +12,15 @@ interface SiteProps {
 }
 
 const Site: React.FC<SiteProps> = ({ title, img, langage, description, url, icon }) => {
+      const formatText = (inputText: string) => {
+        return inputText.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+                {line}
+                {index < inputText.split('\n').length - 1 && <br />}
+            </React.Fragment>
+        ));
+    };
+
     return (
         <div className={Styles.container}>
             <div className={Styles.cards}>
@@ -24,8 +33,8 @@ const Site: React.FC<SiteProps> = ({ title, img, langage, description, url, icon
                             <img src={img}/>
                         </div>
                         <div className={Styles.description}>
-                            <p>{langage}</p>
-                            <p>{description}</p>
+                            <p><strong>Langages, frameworks, outil:</strong> {langage}</p>
+                            <p>{formatText(description)}</p>
                             <div className={Styles.link}>
                                 <img src={icon} />
                                 <a href={url}>{url}</a>
