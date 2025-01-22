@@ -25,9 +25,13 @@ const Data_Presentation = [
         
         Je vous invite à découvrir mes créations, classées par étapes ci-dessous. Vous avez la possibilité de les agrandir en cliquant dessus.`
     },
-    { id: 3, description:`Bienvenue dans la section consacrée à certains mes projets web. Tous ces sites sont responsives, conçus dans le cadre de projets personnels ou en équipe durant ma formation. Les projets sont disponibles sur Github ou en ligne, et vous pouvez les consulter en cliquant sur les liens fournis.
-        
-       En plus de ces réalisations, j'ai également travaillé sur plusieurs projets en React et React Native lors de mon précédent poste, renforçant ainsi mes compétences en développement mobile. Ces projets, bien qu'impactants, ne peuvent pas être partagés ici pour des raisons de confidentialité.`}
+    { id: 3, description:`Bienvenue dans la section consacrée à certains mes projets web. Tous ces sites sont responsives, conçus dans le cadre de projets personnels ou en équipe durant ma formation à la Wild Code Shool de Nantes. 
+
+Pour mes projets personnels, j'ai réalisé moi-même les maquettes afin de structurer et visualiser les interfaces. Lors des travaux en groupe, nous avons également conçu nos propres maquettes en collaboration grâce à Figma, ce qui a permis une meilleure organisation et une vision claire de nos objectifs.
+
+Les projets sont disponibles sur Github ou en ligne, et vous pouvez les consulter en cliquant sur les liens fournis.
+
+En plus de ces réalisations, j'ai également travaillé sur plusieurs projets en React et React Native lors de mon précédent poste, renforçant ainsi mes compétences en développement mobile. Ces projets, bien qu'impactants, ne peuvent pas être partagés ici pour des raisons de confidentialité.`}
 
 ];
 
