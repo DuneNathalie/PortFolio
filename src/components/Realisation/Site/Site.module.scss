@@ -6,14 +6,15 @@
     flex-direction: column;
     gap: 20px;
     background-color: rgba(colors.$brownLight, 0.6);
-    border-radius: 10px;
     box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+    border-radius: 10px;
     overflow: hidden;
     color: colors.$brownDark;
 
-    .cards {
-        width: 100%;
+    .containerCard {
         display: flex;
+        width: 100%;
+        height: 100%;
 
         .item {
             display: flex;
@@ -30,40 +31,62 @@
                 color: colors.$brownDark;
                 font-family: values.$fontTitle;
                 font-weight: lighter;
-
+                font-size: values.$font_size_2p;
             }
 
-            .card {
+            .cardSite {
                 display: flex;
                 border: solid 2px rgba(colors.$brownDark, 0.3);
                 background-color: rgba(colors.$brownDark, 0.2);
                 box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+                overflow: hidden;
 
                 .img {
                     width: 600px;
                     height: 550px;
+                    display: flex;
+                    justify-content: center;
+                    margin: 10px;
 
                     img {
                         max-height: 100%;
                         overflow: hidden;
+                        box-shadow: 6px 6px 12px -2px rgba(136, 116, 113, 0.5);
+                        border-radius: 5px;
                     }
                 }
 
                 .description {
                     padding: 10px;
                     overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: justify;
+
+                    .line {
+                        width: 80%;
+                        height: 90%;
+                    }
 
                     .link {
                         display: flex;
                         align-items: end;
                         overflow: hidden;
+                        width: 100%;
+                        gap: 5px;
 
                         img {
-                            width: 60px;
+                            width: 40px;
                         }
 
                         a {
                             color: colors.$brownDark;
+
+                            &:hover {
+                                color: colors.$brown;
+                            }
                         }
                     }
                 }
@@ -73,17 +96,24 @@
     }
 
 }
-@media screen and (max-width: 700px) {
-    .container {
-        .card {
-            flex-direction: column;
-            align-items: center;
 
-            .img {
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
+@media screen and (max-width: 1200px) {
+    .container {
+
+        .containerCard{
+            height: 100%;
+
+            .item .title{
+                font-size: values.$font_size_pp;
             }
+        }
+        .cardSite {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+            align-items: center;
 
             .description {
                 flex: 1;
@@ -95,12 +125,22 @@
                 word-break: break-word;
                 overflow: visible;
                 width: 100%;
-                margin: 10px;
+
+                .line {
+                    width: 90% !important;
+
+                }
 
                 .link {
-                    align-items: center;
+                    align-items: center !important;
+
+                    img {
+                        width: 35px !important;
+                    }
                 }
             }
+
+
         }
     }
 }

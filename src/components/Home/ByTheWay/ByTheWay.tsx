@@ -1,15 +1,15 @@
 import React from 'react';
 import Styles from './ByTheWay.module.scss';
 import Data_Presentation from '../../../Data/DataPresentation';
-import Presentation from '../../Preambule/Preambule';
+import Preambule from '../../Preambule/Preambule';
 
 const ByTheWay: React.FC = () => {
         const presentationData = Data_Presentation.find(item => item.id === 1);
     
     return (
         <div className={Styles.container}>
-            <h3>Bienvenue sur mon portfolio</h3>
-            <Presentation text={presentationData?.description || 'Aucune donnée disponible'}/>
+            <h2>Bienvenue sur mon portfolio</h2>
+            <Preambule text={presentationData?.description || 'Aucune donnée disponible'}/>
         </div>
 
     );

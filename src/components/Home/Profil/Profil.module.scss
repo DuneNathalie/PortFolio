@@ -15,7 +15,7 @@
         p {
             color: colors.$brown;
             font-family: values.$fontTitle;
-            font-size: 32px;
+            font-size: values.$font_size_1;
             text-align: center;
         }
     }
@@ -26,7 +26,7 @@
 
         .username {
             p {
-                font-size: 24px;
+                font-size: values.$font_size_1p;
                 margin-bottom: 0;
                 margin-left: 5px;
                 margin-right: 5px; 

@@ -7,13 +7,13 @@ const Data_Presentation = [
     
         C’est en choisissant une option web pendant ce BEP que j’ai eu un véritable coup de cœur pour le code. J’ai commencé à apprendre les bases du HTML et du CSS via OpenClassrooms, et très vite, j’ai su que j’avais trouvé ma nouvelle voie.
     
-    Pour aller plus loin, j’ai suivi une formation intensive de développeuse web et mobile à la Wild Code School de Nantes. En 5 mois, j’ai appris à maîtriser JavaScript, React, et Node.js. Cela a été suivi d’un stage de 6 mois chez WIIO, à Saint-Sébastien-sur-Loire, qui s’est prolongé d’une année supplémentaire.
+    Pour aller plus loin, j’ai suivi une formation intensive de développeuse web et mobile à la Wild Code School de Nantes. En 5 mois, j’ai appris à maîtriser des bases en JavaScript, React, Node.js et Express. Cela a été suivi d’un stage de 6 mois chez WIIO, à Saint-Sébastien-sur-Loire, qui s’est prolongé d’une année supplémentaire.
     
-    Chez WIIO, j’ai eu l’opportunité d’approfondir mes connaissances. J’ai appris à coder en TypeScript, j’ai également découvert le développement mobile avec React Native, et j’ai un peu exploré Kotlin Compose. J’ai également acquis de l’expérience en Windev et en Velocity, ce qui m’a permis d’élargir mon champ de compétences et de confirmer mon enthousiasme pour les technologies web et mobiles. Cette expérience m’a permis de m’impliquer dans des projets variés, où j’ai pu apprendre, expérimenter et grandir en tant que développeuse.
+     Lors de mon expérience chez Wiio, j'ai pu approfondir et mettre en pratique ces compétences, mais surtout, j'ai énormément appris. J’ai découvert TypeScript, j’ai également découvert le développement mobile avec React Native et j’ai un peu exploré Kotlin Compose. Ce poste m'a également permis d'approfondir mon savoir-faire en développement et de perfectionner des compétences essentielles comme la gestion de projet et l'adaptation à des environnements techniques variés.
     
-    Aujourd’hui, je continue à apprendre et à évoluer dans ce métier qui me passionne, en mettant ma créativité, ma détermination et mon enthousiasme dans les projets sur lesquels je travaille (développement de sites, indexation sur Google…). Au cours de mon expérience chez WIIO, j'ai eu la chance de participer à plusieurs projets professionnels enrichissants. Les projets que je vous présente dans ce portfolio sont des réalisations uniquement personnelles ou réalisées en groupe lors de ma formation à la Wild Code School.
+    Aujourd’hui, je continue à apprendre et à évoluer dans ce métier qui me passionne, en mettant ma créativité, ma détermination et mon enthousiasme dans les projets sur lesquels je travaille (développement de sites, indexation sur Google…).
     
-    Dans ce portfolio, vous trouverez une page avec mes réalisations en Illustrator, une autre présentant les sites web que j’ai créés, ainsi qu’une page avec mon CV que vous pouvez consulter et télécharger. 
+    Dans ce portfolio, vous trouverez une page avec mes réalisations en Illustrator, une autre présentant certains sites web que j’ai créés seule ou en groupe lors de ma formation, ainsi qu’une page avec mon CV que vous pouvez consulter et télécharger. 
     
     Je vous souhaite une excellente navigation et j’espère que mon travail vous plaira !`
     },
@@ -25,9 +25,9 @@ const Data_Presentation = [
         
         Je vous invite à découvrir mes créations, classées par étapes ci-dessous. Vous avez la possibilité de les agrandir en cliquant dessus.`
     },
-    { id: 3, description:`Bienvenue dans la section consacrée à certains mes projets web. Tous ces sites sont responsives, conçus dans le cadre de projets personnels ou en équipe durant ma formation. Les projets sont disponibles sur Github ou en ligne, et vous pouvez les consulter en cliquant sur les liens fournis.
-        
-       En plus de ces réalisations, j'ai également travaillé sur plusieurs projets en React et React Native lors de mon précédent poste, renforçant ainsi mes compétences en développement mobile. Ces projets, bien qu'impactants, ne peuvent pas être partagés ici pour des raisons de confidentialité.`}
+    { id: 3, description:`Tous ces sites sont responsives, conçus dans le cadre de projets personnels ou en équipe durant ma formation à la Wild Code School de Nantes. Pour mes projets personnels, j'ai réalisé moi-même les maquettes afin de structurer et visualiser les interfaces. Lors des travaux en groupe, nous avons également conçu nos propres maquettes en collaboration grâce à Figma. Les projets présentés ici sont simples et reflètent des étapes importantes dans mon apprentissage. Ils sont disponibles sur Github ou en ligne, et vous pouvez les consulter en cliquant sur les liens fournis.
+
+Par ailleurs, lors de mon précédent poste, j'ai travaillé sur des projets en React et React Native, impliquant des développements bien plus complexes en termes de développemnt et d'algorithmes. Ces expériences m'ont permis de renforcer mes compétences en développement mobile et de travailler sur des fonctionnalités avancées. Toutefois, pour des raisons de confidentialité, ces réalisations ne peuvent pas être partagées ici.`}
 
 ];
 

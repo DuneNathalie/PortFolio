@@ -18,15 +18,17 @@
 
         h2 {
             font-family: values.$fontTitle;
+            font-size: values.$font_size_2;
             font-weight: lighter;
         }
     }
 
-    .cards {
+    .cardIllustrator{
         display: flex;
-        gap: 30px;
         flex-wrap: wrap;
+        gap: 30px;
     }
+
 
     .item {
         display: flex;
@@ -38,6 +40,7 @@
         box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
         overflow: hidden;
         max-width: 48%;
+
     }
 
     .img {
@@ -68,13 +71,13 @@
         color: colors.$brownDark;
 
         h2 {
-            font-size: 24px;
+            font-size:values.$font_size_2;
             margin: 0;
         }
 
         p {
             text-align: justify;
-            font-size: 14px;
+            font-size: values.$font_size_p;
             margin: 0;
         }
     }
@@ -82,12 +85,18 @@
 
 @media screen and (max-width: 800px) {
 
+    .cardIllustrator{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    
     .item {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 350px;
+        max-width: 450px;
 
 
         .img {
@@ -97,33 +106,29 @@
 
         .text {
             h2 {
-                font-size: 18px;
+                font-size: values.$font_size_2p;
                 margin-top: 0;
             }
 
             p {
-                font-size: 14px;
+                font-size: values.$font_size_p;
             }
         }
     }
 
 }
-
+}
 
 @media screen and (max-width: 1000px) {
 
-    .cards {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
+    .cardIllustrator{
 
         .item {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            max-width: 350px;
+            max-width: 400px;
 
             .img {
                 margin: 10px 10px 0px 10px;
@@ -134,12 +139,12 @@
                 max-height: 130px;
 
                 h2 {
-                    font-size: 18px;
+                    font-size:values.$font_size_pp;
                     margin-top: 0;
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: values.$font_size_pp;
                 }
             }
         }

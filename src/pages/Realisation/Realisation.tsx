@@ -6,7 +6,7 @@ import Styles from './Realisation.module.scss';
 import Footer from '../../components/Footer/Footer';
 import SiteList from '../../components/Realisation/SiteList/SiteList';
 import Title from '../../components/Title/Title';
-import Presentation from '../../components/Preambule/Preambule';
+import Preambule from '../../components/Preambule/Preambule';
 
 import Data_Presentation from '../../Data/DataPresentation';
 
@@ -15,7 +15,7 @@ const Realisation: React.FC = () => {
     return (
         <div className={Styles.container}>
             <Title title='réalisation sites web' />
-            <Presentation text={presentationData?.description || 'Aucune donnée disponible'} />
+            <Preambule text={presentationData?.description || 'Aucune donnée disponible'} />
             <SiteList/>
             <Footer type='realisation' />
         </div>

@@ -2,13 +2,19 @@
 
 .container {
     margin-bottom: 10px;
+
     a {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
         text-decoration: none;
-        margin:auto
+        margin: auto
+    }
+}
 
+@media screen and (max-width: 1300px) {
+    .container {
+        margin-bottom: 20px;
     }
 }

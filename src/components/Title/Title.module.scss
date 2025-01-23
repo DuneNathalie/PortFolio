@@ -7,12 +7,12 @@
     font-family: values.$fontTitle;
     text-align: center;
     margin: 0;
-    font-size: 32px;
+    font-size: values.$font_size_1;
 }
 
 @media screen and (max-width: 700px) {
     .container {
-        font-size: 23px;
+        font-size: values.$font_size_1p;
         font-weight:lighter;
         display: flex;
         align-items: center;

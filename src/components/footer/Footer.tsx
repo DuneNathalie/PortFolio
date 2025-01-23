@@ -27,7 +27,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
                 <div className={styles.element}>
                     <Button
                         type='nav'
-                        text="SUIVANT"
+                        text="Suivant"
                         onClick={() => {
                             navigate('/illustrator');
                         }}
@@ -39,18 +39,18 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
     if (type === 'illustrator') {
         return (
             <div className={getClassName()}>
-                <Button type='nav' text="RETOUR" onClick={() => { navigate('/'); }} />
+                <Button type='nav' text="Retour" onClick={() => { navigate('/'); }} />
                 <Reseau />
-                <Button type='nav' text="SUIVANT" onClick={() => { navigate('/realisation'); }} />
+                <Button type='nav' text="Suivant" onClick={() => { navigate('/realisation'); }} />
             </div>
         )
     }
     if (type === 'realisation') {
         return (
             <div className={getClassName()}>
-                <Button type='nav' text="RETOUR" onClick={() => { navigate('/illustrator'); }} />
+                <Button type='nav' text="Retour" onClick={() => { navigate('/illustrator'); }} />
                 <Reseau />
-                <Button type='nav' text="SUIVANT" onClick={() => { navigate('/cv'); }} />
+                <Button type='nav' text="Suivant" onClick={() => { navigate('/cv'); }} />
             </div>
         );
     }
@@ -58,7 +58,7 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
         return (
             <div className={getClassName()}>
                 <div className={styles.element}>
-                    <Button type='nav' text="RETOUR" onClick={() => { navigate('/realisation'); }} />
+                    <Button type='nav' text="Retour" onClick={() => { navigate('/realisation'); }} />
                 </div>
                 <div className={styles.element}>
                     <Reseau />
@@ -66,21 +66,6 @@ const Footer: React.FC<FooterProps> = ({ type }) => {
             </div>
         );
     }
-    {/**  if (type === 'contact') {
-        return (
-            <div className={getClassName()}>
-                <div className={styles.element}>
-                    <Button text="Retour" onClick={() => {
-                        navigate('/cv');
-                    }} />
-                </div>
-                <div className={styles.element}>
-                    <Reseau />
-                </div>
-            </div>
-        )
-    }
-        */}
 
     return (
 

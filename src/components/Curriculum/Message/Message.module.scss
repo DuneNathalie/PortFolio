@@ -1,3 +1,5 @@
+@use "../../../styles/values";
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,17 +7,15 @@
     justify-content: end;
     height: 42vh;
     max-width: 100vh;
+    margin-left: 20px;
 
-    .test {
+    .containerMessage {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 30vh;
         max-width: 100vh;
-
-        h2 {
-            text-align: center;
-        }
+        font-size: values.$font_size_p;
 
         .button {
             display: flex;
@@ -28,31 +28,31 @@
 
 }
 
+@media screen and (max-width: 1300px) {
+    .container {
+        flex:0.5;
+    }
+}
+
 @media screen and (max-width: 700px) {
 
     .container {
-        height: 100%;
-        max-width: 100vh;
-
-        .test {
+    margin-left: 0px;
+        .containerMessage {
             height: 100%;
-
-            h2 {
-                font-size: 18px;
-                text-align: center;
+            font-size: values.$font_size_pp;
+            h2{
+                text-align: start;
             }
-
-            p {
-                font-size: 16px;
+            p{
                 text-align: justify;
+
             }
         }
-
         .button {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
         }
     }
 
