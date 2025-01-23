@@ -17,5 +17,6 @@
       "@pages/*": ["pages/*"]
     }
   },
-  "exclude": ["dist"]
+  "exclude": ["dist"],
+  "include": ["src/**/*"]
 }
