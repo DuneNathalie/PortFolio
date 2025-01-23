@@ -1,11 +1,11 @@
 import React from 'react';
 import Styles from './CategoryList.module.scss';
 
-import Data_illustrator from '../../../Data/DataIllustrator';
+import Data_illustrator from '../../../data/DataIllustrator';
 
 import 'react-medium-image-zoom/dist/styles.css';
-import Category from '../Category/Category';
-import CardsNoel from '../CardsNoel/CardsNoel';
+import Category from '../category/Category';
+import CardsNoel from '../cardsNoel/CardsNoel';
 
 
 const CategoryList: React.FC = () => {

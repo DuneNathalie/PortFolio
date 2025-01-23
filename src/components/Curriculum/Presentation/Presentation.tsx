@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Styles from './Presentation.module.scss';
-import CvImg from '../CvImg/CvImg';
-import Message from '../Message/Message';
+import CvImg from '../cvimg/CvImg';
+import Message from '../message/Message';
 
 const Presentation: React.FC = () => {
     return (

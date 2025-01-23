@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Data_site from '../../../Data/DataSite';
+import Data_site from '../../../data/DataSite';
 
 import Styles from './SiteList.module.scss';
-import Site from '../Site/Site';
+import Site from '../site/Site';
 
 const SiteList: React.FC = () => {
     const Data_fag = Data_site.find(item => item.id === 1);

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Styles from './Description.module.scss';
-import Img from '../Img/Img';
-import ByTheWay from '../ByTheWay/ByTheWay';
+import Img from '../img/Img';
+import ByTheWay from '../bytheway/ByTheWay';
 
 const Description: React.FC = () => {
     return (

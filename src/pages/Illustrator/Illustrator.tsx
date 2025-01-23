@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/footer/Footer';
 import Styles from './Illustrator.module.scss';
-import Title from '../../components/Title/Title';
-import CategoryList from '../../components/Illustrator/CategoryList/CategoryList';
-import Preambule from '../../components/Preambule/Preambule';
+import Title from '../../components/title/Title';
+import CategoryList from '../../components/illustrator/categoryList/CategoryList';
+import Preambule from '../../components/preambule/Preambule';
 
-import Data_Presentation from '../../Data/DataPresentation';
+import Data_Presentation from '../../data/DataPresentation';
 
 
 const Illustrator: React.FC = () => {

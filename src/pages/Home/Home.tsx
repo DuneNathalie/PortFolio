@@ -2,9 +2,9 @@ import React from 'react';
 
 
 import Styles from './Home.module.scss';
-import Profil from '../../components/Home/Profil/Profil';
-import Description from '../../components/Home/Description/Description';
-import Footer from '../../components/Footer/Footer';
+import Profil from '../../components/home/profil/Profil';
+import Description from '../../components/home/description/Description';
+import Footer from '../../components/footer/Footer';
 
 
 

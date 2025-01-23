@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Styles from './Profil.module.scss';
-import Title from '../../Title/Title';
+import Title from '../../title/Title';
 
 const Profil: React.FC = () => {
   return (

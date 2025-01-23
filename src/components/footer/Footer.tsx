@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
 import styles from './Footer.module.scss';
-import Button from '../Button/Button';
+import Button from '../button/Button';
 import React from 'react';
-import Reseau from '../Reseau/Reseau';
+import Reseau from '../reseau/Reseau';
 
 interface FooterProps {
     type?: 'home' | 'cv' | 'realisation' | 'contact' | 'illustrator';

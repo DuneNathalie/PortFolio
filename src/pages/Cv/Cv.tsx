@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/footer/Footer';
 import Styles from './Cv.module.scss';
-import Title from '../../components/Title/Title';
-import Presentation from '../../components/Curriculum/Presentation/Presentation';
+import Title from '../../components/title/Title';
+import Presentation from '../../components/curriculum/presentation/Presentation';
 
 const Cv: React.FC = () => {
 
