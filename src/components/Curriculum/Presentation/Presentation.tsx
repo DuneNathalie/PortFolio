@@ -7,8 +7,10 @@ import Message from '../Message/Message';
 const Presentation: React.FC = () => {
     return (
         <div className={Styles.container}>
+            <div className={Styles.presentation}>
             <CvImg />
             <Message/>
+            </div>
         </div>
     );
 };

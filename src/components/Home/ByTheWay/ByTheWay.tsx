@@ -8,7 +8,7 @@ const ByTheWay: React.FC = () => {
     
     return (
         <div className={Styles.container}>
-            <h3>Bienvenue sur mon portfolio</h3>
+            <h2>Bienvenue sur mon portfolio</h2>
             <Preambule text={presentationData?.description || 'Aucune donnée disponible'}/>
         </div>
 

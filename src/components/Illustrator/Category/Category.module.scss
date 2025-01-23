@@ -18,15 +18,15 @@
 
         h2 {
             font-family: values.$fontTitle;
+            font-size: values.$font_size_2;
             font-weight: lighter;
         }
     }
 
     .cardIllustrator{
         display: flex;
-        gap: 30px;
         flex-wrap: wrap;
-       // background-color: salmon;
+        gap: 30px;
     }
 
 
@@ -71,13 +71,13 @@
         color: colors.$brownDark;
 
         h2 {
-            font-size: 24px;
+            font-size:values.$font_size_2;
             margin: 0;
         }
 
         p {
             text-align: justify;
-            font-size: 14px;
+            font-size: values.$font_size_p;
             margin: 0;
         }
     }
@@ -106,12 +106,12 @@
 
         .text {
             h2 {
-                font-size: 18px;
+                font-size: values.$font_size_2p;
                 margin-top: 0;
             }
 
             p {
-                font-size: 14px;
+                font-size: values.$font_size_p;
             }
         }
     }
@@ -139,12 +139,12 @@
                 max-height: 130px;
 
                 h2 {
-                    font-size: 18px;
+                    font-size:values.$font_size_pp;
                     margin-top: 0;
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: values.$font_size_pp;
                 }
             }
         }

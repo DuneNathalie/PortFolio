@@ -8,6 +8,7 @@
     .title {
         h2 {
             font-family: values.$fontTitle;
+            font-size: values.$font_size_1;
             font-weight: lighter;
         }
     }
@@ -39,10 +40,8 @@
     }
 
     .text {
-        padding: 10px;
-
         p {
-            font-size: 14px;
+            font-size: values.$font_size_p;
             margin-top: 0;
         }
 
@@ -58,10 +57,9 @@
             h2 {
                 margin-top: 0;
                 text-align: center;
-                font-size: 24px;
+                font-size: values.$font_size_1p;
             }
         }
-    
 
         .containerCards {
             flex-direction: column;
@@ -76,8 +74,10 @@
                 }
             }
         }
-
     }
 
+    p {
+        font-size: values.$font_size_pp;
+    }
 
 }

@@ -9,7 +9,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 const Message: React.FC = () => {
     return (
         <div className={Styles.container}>
-            <div className={Styles.test}>
+            <div className={Styles.containerMessage}>
                 <div className={Styles.message}>
                     <h2>Merci d'avoir parcouru mon portfolio!</h2>
                     <p>Je suis disponible pour discuter de nouvelles opportunités et collaborations. <br/>

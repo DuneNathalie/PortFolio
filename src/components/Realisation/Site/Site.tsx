@@ -42,7 +42,7 @@ const Site: React.FC<SiteProps> = ({ title, img, langage, description, url, icon
                                 <a href={url}>{formatText(url)}</a>
                             </div>
                         </div>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
