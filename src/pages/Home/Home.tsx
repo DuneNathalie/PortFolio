@@ -1,11 +1,10 @@
-/* eslint-disable */
 import React from 'react';
 
-import Footer from '../../components/Footer/Footer';
 
 import Styles from './Home.module.scss';
 import Profil from '../../components/Home/Profil/Profil';
 import Description from '../../components/Home/Description/Description';
+import Footer from '../../components/Footer/Footer';
 
 
 
