@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DownloadCv from '../downloadcv/DownloadCv';
+import DownloadCv from '../downloadcv/Downloadcv';
 
 import Styles from './Message.module.scss';
 import { motion } from 'framer-motion';
