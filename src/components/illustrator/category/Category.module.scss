@@ -1,0 +1,152 @@
+@use "../../../styles//colors";
+@use "../../../styles//values";
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .title {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        h2 {
+            font-family: values.$fontTitle;
+            font-size: values.$font_size_2;
+            font-weight: lighter;
+        }
+    }
+
+    .cardIllustrator{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(colors.$brownLight, 0.6);
+        border-radius: 10px;
+        box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+        overflow: hidden;
+        max-width: 48%;
+
+    }
+
+    .img {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        border: solid 2px rgba(colors.$brownDark, 0.3);
+        border-radius: 10px;
+        background-color: rgba(colors.$brownDark, 0.2);
+        box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+
+        img {
+            max-height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+            padding: 5px 0;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 300px;
+        height: 140px;
+        color: colors.$brownDark;
+
+        h2 {
+            font-size:values.$font_size_2;
+            margin: 0;
+        }
+
+        p {
+            text-align: justify;
+            font-size: values.$font_size_p;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .cardIllustrator{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 450px;
+
+
+        .img {
+            margin: 25px 10px 0px 10px;
+
+        }
+
+        .text {
+            h2 {
+                font-size: values.$font_size_2p;
+                margin-top: 0;
+            }
+
+            p {
+                font-size: values.$font_size_p;
+            }
+        }
+    }
+
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+    .cardIllustrator{
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 400px;
+
+            .img {
+                margin: 10px 10px 0px 10px;
+            }
+
+            .text {
+                margin-top: 10px;
+                max-height: 130px;
+
+                h2 {
+                    font-size:values.$font_size_pp;
+                    margin-top: 0;
+                }
+
+                p {
+                    font-size: values.$font_size_pp;
+                }
+            }
+        }
+    }
+}
