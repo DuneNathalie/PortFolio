@@ -7,10 +7,10 @@ const Reseau: React.FC = () => {
     return (
         <div className={Styles.container}>
             <a href="https://github.com/DuneNathalie" rel="noopener noreferrer" aria-label="github">
-                <FaGithub color="black" size="30px"/>
+                <FaGithub className={Styles.icon}/>
             </a>
             <a href="https://www.linkedin.com/in/nathalie-dune-1b4a09245" rel="noopener noreferrer" aria-label="Facebook">
-                <FaLinkedin color="black" size="30px"/>
+                <FaLinkedin className={Styles.icon}/>
             </a>
         </div>
     );

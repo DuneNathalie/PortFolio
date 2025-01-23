@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Styles from './Category.module.scss';
-import { RiZoomInFill } from "react-icons/ri";
 
 import Zoom from 'react-medium-image-zoom';
 
@@ -20,7 +19,7 @@ const Category: React.FC<CategoryProps> = ({theme, data}) => {
                 <div className={Styles.title}>
                     <h2>{theme}</h2>
                 </div>
-                <div className={Styles.cards}>
+                <div className={Styles.cardIllustrator}>
                     {data.map((item, index) => ( 
                         <div key={index} className={Styles.item}>
                             <Zoom

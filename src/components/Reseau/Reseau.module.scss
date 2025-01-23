@@ -1,6 +1,19 @@
+@use "../../styles/colors";
+
 .container {
     display:flex;
     align-items: center;
     justify-content: space-between;
     width: 70px;
+
+    a{
+        .icon{
+            width: 30px;
+            height: 30px;
+            color: colors.$brownDark;
+            &:hover{
+                color: colors.$brown;
+            }
+        }
+    }
 }

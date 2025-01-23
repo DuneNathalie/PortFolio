@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import Styles from './Illustrator.module.scss';
 import Title from '../../components/Title/Title';
 import CategoryList from '../../components/Illustrator/CategoryList/CategoryList';
-import Presentation from '../../components/Preambule/Preambule';
+import Preambule from '../../components/Preambule/Preambule';
 
 import Data_Presentation from '../../Data/DataPresentation';
 
@@ -15,7 +15,7 @@ const Illustrator: React.FC = () => {
     return (
         <div className={Styles.container}>
             <Title title='réalisation avec adobe illustrator' />
-            <Presentation text={presentationData?.description || 'Aucune donnée disponible'} />
+            <Preambule text={presentationData?.description || 'Aucune donnée disponible'} />
             <CategoryList />
             <Footer type='illustrator' />
         </div>

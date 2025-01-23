@@ -23,21 +23,23 @@ const Site: React.FC<SiteProps> = ({ title, img, langage, description, url, icon
 
     return (
         <div className={Styles.container}>
-            <div className={Styles.cards}>
+            <div className={Styles.containerCard}>
                 <div className={Styles.item}>
                     <div className={Styles.title}>
                         <h2>{title}</h2>
                     </div>
-                    <div className={Styles.card}>
+                    <div className={Styles.cardSite}>
                         <div className={Styles.img}>
                             <img src={img}/>
                         </div>
                         <div className={Styles.description}>
-                            <p><strong>Langages, frameworks, outil:</strong> {langage}</p>
+                            <div className={Styles.line}>
+                            <p><strong>Langages, frameworks, outil:</strong><br/>{formatText(langage)}</p>
                             <p>{formatText(description)}</p>
+                            </div>
                             <div className={Styles.link}>
                                 <img src={icon} />
-                                <a href={url}>{url}</a>
+                                <a href={url}>{formatText(url)}</a>
                             </div>
                         </div>
                     </div>
