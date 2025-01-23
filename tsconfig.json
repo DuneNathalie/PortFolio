@@ -13,7 +13,8 @@
     "skipLibCheck": true,
     "baseUrl": "./src",
     "paths": {
-      "pages/*": ["pages/*"]
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"]
     }
   },
   "exclude": ["dist"]
