@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../../button/Button';
-import Styles from './Downloadcv.module.scss';
+import Styles from './Download.module.scss';
 
 const DownloadCv: React.FC = () => {
 
