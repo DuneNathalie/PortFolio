@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './ByTheWay.module.scss';
-import Data_Presentation from '../../../data/DataPresentation';
+import Data_Presentation from '../../../data/Presentation';
 import Preambule from '../../preambule/Preambule';
 
 const ByTheWay: React.FC = () => {

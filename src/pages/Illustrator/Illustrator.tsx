@@ -6,7 +6,7 @@ import Title from '../../components/title/Title';
 import CategoryList from '../../components/illustrator/categoryList/CategoryList';
 import Preambule from '../../components/preambule/Preambule';
 
-import Data_Presentation from '../../data/DataPresentation';
+import Data_Presentation from '../../data/Presentation';
 
 
 const Illustrator: React.FC = () => {

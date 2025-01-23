@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Data_site from '../../../data/DataSite';
+import Data_site from '../../../data/Site';
 
 import Styles from './SiteList.module.scss';
 import Site from '../site/Site';

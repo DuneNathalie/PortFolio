@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from './CategoryList.module.scss';
 
-import Data_illustrator from '../../../data/DataIllustrator';
+import Data_illustrator from '../../../data/Illustrator';
 
 import 'react-medium-image-zoom/dist/styles.css';
 import Category from '../category/Category';
