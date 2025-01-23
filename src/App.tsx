@@ -2,10 +2,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import Home from './pages/home/Home';
-import Cv from './pages/cv/Cv';
-import Realisation from './pages/realisation/Realisation';
-import Illustrator from './pages/illustrator/Illustrator';
+import Cv from './pages/Cv';
+import Home from './pages/Home';
+import Realisation from './pages/Realisation';
+import Illustrator from './pages/Illustrator';
 
 const App: React.FC = () => {
     return (
