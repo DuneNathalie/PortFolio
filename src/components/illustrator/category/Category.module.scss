@@ -112,6 +112,7 @@
                 }
 
                 .text {
+                    overflow: hidden;
                     margin-bottom: 10px;
                     h2 {
                         font-size: values.$font_size_pp;
