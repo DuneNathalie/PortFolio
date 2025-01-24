@@ -15,7 +15,7 @@ data: Array<{
 
 const Category: React.FC<CategoryProps> = ({theme, data}) => {
     return(
-        <div className={Styles.category}>
+        <div className={Styles.container}>
                 <div className={Styles.title}>
                     <h2>{theme}</h2>
                 </div>
