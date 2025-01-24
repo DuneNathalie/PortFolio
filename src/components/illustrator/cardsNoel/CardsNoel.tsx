@@ -16,7 +16,7 @@ const cardsNoel = () => {
                         <img src={cardfils} alt="card noel fils" />
                     </div>
                     <div className={Styles.text}>
-                        <p>Résultat carte noël fils</p>
+                        <p>Résultat carte noël pour mon fils</p>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ const cardsNoel = () => {
                         <img src={cardfille} alt="card noel fille" />
                     </div>
                     <div className={Styles.text}>
-                        <p>Résultat carte noël fille</p>
+                        <p>Résultat carte noël pour ma fille</p>
                     </div>
                 </div>
             </div>
