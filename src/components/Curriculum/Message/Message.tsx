@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DownloadCv from '../downloadcv/Download';
+import Download from './../download/Download';
 
 import Styles from './Message.module.scss';
 import { motion } from 'framer-motion';
@@ -23,7 +23,7 @@ const Message: React.FC = () => {
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: 43, height: 30 }} >
                         <FaArrowDownLong  style={{ width: '30px', height: '30px'}} />
                         </motion.div>
-                    <DownloadCv />
+                    <Download />
                 </div>
             </div>
         </div>
