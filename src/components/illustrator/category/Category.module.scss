@@ -27,58 +27,58 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-    }
 
 
-    .item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(colors.$brownLight, 0.6);
-        border-radius: 10px;
-        box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
-        overflow: hidden;
-        max-width: 48%;
-
-    }
-
-    .img {
-        width: 300px;
-        height: 250px;
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-        border: solid 2px rgba(colors.$brownDark, 0.3);
-        border-radius: 10px;
-        background-color: rgba(colors.$brownDark, 0.2);
-        box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
-
-        img {
-            max-height: 100%;
-            object-fit: cover;
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(colors.$brownLight, 0.6);
+            border-radius: 10px;
+            box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
             overflow: hidden;
-            padding: 5px 0;
-        }
-    }
+            max-width: 48%;
 
-    .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        width: 300px;
-        height: 160px;
-        color: colors.$brownDark;
-
-        h2 {
-            font-size: values.$font_size_2;
-            margin: 0;
         }
 
-        p {
-            text-align: justify;
-            font-size: values.$font_size_p;
-            margin: 0;
+        .img {
+            width: 300px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            border: solid 2px rgba(colors.$brownDark, 0.3);
+            border-radius: 10px;
+            background-color: rgba(colors.$brownDark, 0.2);
+            box-shadow: 9px 9px 15px -2px rgba(136, 116, 113, 0.5);
+
+            img {
+                max-height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+                padding: 5px 0;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            width: 300px;
+            height: 160px;
+            color: colors.$brownDark;
+
+            h2 {
+                font-size: values.$font_size_2;
+                margin: 0;
+            }
+
+            p {
+                text-align: justify;
+                font-size: values.$font_size_p;
+                margin: 0;
+            }
         }
     }
 }
@@ -101,13 +101,14 @@
             margin: auto;
 
             .item {
-                overflow: visible; 
+                overflow: visible;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 max-width: 500px;
                 min-height: 0;
+
 
                 .img {
                     height: 230px;
@@ -117,26 +118,21 @@
 
                 .text {
                     height: auto;
-                    margin-bottom: 10px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: flex-start;
-                    padding: 5px;
+                    display: block;
+                    box-sizing: border-box;
 
                     h2 {
                         font-size: values.$font_size_pp;
-                        margin-top: 0;
+                        margin: 0 0 10px;
                     }
 
                     p {
-                        height:auto;
-                        margin: 0;
-                        word-wrap: break-word;
-                        overflow-wrap: break-word;
+                        margin-bottom: 10px;
                         line-height: 1.5;
+                        word-break: break-word;
+                        white-space: normal;
+                        margin-bottom: 10px;
                         font-size: values.$font_size_pp;
-                        padding-bottom:10px;
                     }
                 }
             }
@@ -162,7 +158,7 @@
 
             .text {
                 margin-top: 10px;
-                max-height: 130px;
+                max-height: 200px;
 
                 h2 {
                     font-size: values.$font_size_pp;
