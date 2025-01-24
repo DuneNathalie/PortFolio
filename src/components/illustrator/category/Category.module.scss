@@ -67,7 +67,7 @@
         flex-direction: column;
         justify-content: start;
         width: 300px;
-        height: 220px;
+        height: 160px;
         color: colors.$brownDark;
 
         h2 {
@@ -112,8 +112,9 @@
                 }
 
                 .text {
+                    height: auto;
                     overflow: hidden;
-                    margin-bottom: 10px;
+                    margin-bottom: 20px;
                     h2 {
                         font-size: values.$font_size_pp;
                         margin-top: 0;
