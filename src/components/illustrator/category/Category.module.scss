@@ -23,7 +23,7 @@
         }
     }
 
-    .cardIllustrator{
+    .cardIllustrator {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
@@ -71,7 +71,7 @@
         color: colors.$brownDark;
 
         h2 {
-            font-size:values.$font_size_2;
+            font-size: values.$font_size_2;
             margin: 0;
         }
 
@@ -84,44 +84,51 @@
 }
 
 @media screen and (max-width: 800px) {
-
-    .cardIllustrator{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    
-    .item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 450px;
-
-
-        .img {
-            margin: 25px 10px 0px 10px;
-
-        }
-
-        .text {
+    .category {
+        .title {
             h2 {
                 font-size: values.$font_size_2p;
-                margin-top: 0;
-            }
-
-            p {
-                font-size: values.$font_size_p;
+                text-align: center;
             }
         }
-    }
 
-}
+        .cardIllustrator {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                max-width: 450px;
+
+                .img {
+                    margin: 25px 10px 0px 10px;
+
+                }
+
+                .text {
+                    h2 {
+                        font-size: values.$font_size_2p;
+                        margin-top: 0;
+                    }
+
+                    p {
+                        font-size: values.$font_size_p;
+                    }
+                }
+            }
+
+        }
+    }
 }
 
 @media screen and (max-width: 1000px) {
 
-    .cardIllustrator{
+    .cardIllustrator {
 
         .item {
             display: flex;
@@ -139,7 +146,7 @@
                 max-height: 130px;
 
                 h2 {
-                    font-size:values.$font_size_pp;
+                    font-size: values.$font_size_pp;
                     margin-top: 0;
                 }
 
