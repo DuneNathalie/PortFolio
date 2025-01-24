@@ -17,6 +17,10 @@
         max-width: 100vh;
         font-size: values.$font_size_p;
 
+        .message {
+            text-align: center;
+        }
+
         .button {
             display: flex;
             flex-direction: column;
@@ -30,25 +34,30 @@
 
 @media screen and (max-width: 1300px) {
     .container {
-        flex:0.5;
+        flex: 0.5;
     }
 }
 
 @media screen and (max-width: 700px) {
 
     .container {
-    margin-left: 0px;
+        margin-left: 0px;
+
         .containerMessage {
             height: 100%;
             font-size: values.$font_size_pp;
-            h2{
-                text-align: start;
+
+            h2 {
+                font-size: values.$font_size_p;
+                text-align: center;
             }
-            p{
+
+            p {
                 text-align: justify;
 
             }
         }
+
         .button {
             display: flex;
             flex-direction: column;
