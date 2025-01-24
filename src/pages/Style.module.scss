@@ -1,14 +1,11 @@
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 @media screen and (max-width: 700px) {
-    .container {
-        flex:1;
-
-    }
+  
 }
