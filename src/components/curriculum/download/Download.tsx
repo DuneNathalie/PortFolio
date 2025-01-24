@@ -15,7 +15,7 @@ const Downloadcv: React.FC = () => {
     }
         return (
             <div className={Styles.container}>
-                <Button type='download' text="TELECHARGER CV" onClick={handleDownload} />
+                <Button type='download' text="TELECHARGER" onClick={handleDownload} />
             </div>
         )
     };
