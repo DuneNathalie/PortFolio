@@ -11,9 +11,9 @@ import imgAstro from '../../src/assets/Site/Astro.png';
 
 const Data_Sites = [
     {
-        id: 1, title: 'FilmaGogo', langage: "React, TypeScrypt, Javascript, SCSS,HTML, Nodes.js, Express.", description: `Filmagogo est un projet en cours de développement, inspiré d'une application bien connue qui permet de consulter des films et séries. L'objectif de cette application est de proposer une expérience utilisateur similaire.
+        id: 1, title: 'FilmaGogo', langage: "React, TypeScrypt, Javascript, SCSS,HTML, Nodes.js, Express.", description: `Filmagogo est un projet en cours de développement, inspiré d'une application bien connue permettant de consulter des films et séries. L'objectif est d'offrir une expérience utilisateur similaire en s'appuyant sur l'API de The Movie Database pour afficher les affiches, titres, notes et descriptions des œuvres.
 
-La diffusion des films et séries choisis ne fait pas partie des fonctionnalités disponibles.
+La diffusion des films et séries n'est pas une fonctionnalité disponible. Cependant, pour certains d'entre eux, un lien permet d’être redirigé vers des sites ou plateformes où ils sont accessibles.
 
 Le projet est disponible sur mon GitHub, accessible via le lien ci-dessous.`, url: "https://github.com/DuneNathalie/filmagogo", icon: fag, img: imgFag
     },
