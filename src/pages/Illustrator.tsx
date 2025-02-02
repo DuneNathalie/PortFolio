@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import Footer from '../components/footer/Footer';
 import Styles from './Style.module.scss';
@@ -10,6 +10,12 @@ import Data_Presentation from '../data/Presentation';
 
 
 const Illustrator: React.FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+
+    
     const presentationData = Data_Presentation.find(item => item.id === 2);
     return (
         <div className={Styles.container}>
@@ -22,3 +28,4 @@ const Illustrator: React.FC = () => {
 };
 
 export default Illustrator;
+
